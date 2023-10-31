@@ -1,0 +1,60 @@
+
+/* screen control tablets*/
+
+@media (max-width:791px) {
+    /* hero section */
+    .hero{
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+    }
+    .text{
+        position: relative;
+        color: var(--Accent-Orange);
+        margin-top: 50px;
+        padding-top: 15px;
+    }
+
+    .text h2 {
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 1.2;
+    }
+    .text h3 {
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 1.1;
+    }
+    .text p {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.5;
+    }
+    .socials{
+        position: absolute;
+        margin-top: 60px;
+    }
+    .socials ul{
+        display: flex;
+    }
+
+    .socials ul li{
+        font-size: 14px;
+    }
+
+    .socials ul li a {
+        text-decoration: none;
+        color: var(--primary-green);
+    }
+    /*! end hero section */
+}
+
+
+
+
+
+
